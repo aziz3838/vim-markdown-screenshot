@@ -1,0 +1,27 @@
+*vim-markdown-screenshot.txt* A short multi line description of your plugin
+
+===============================================================================
+CONTENTS                                              *vim-markdown-screenshot*
+
+    1. Intro .................................. |vim-markdown-screenshot-intro|
+    2. Requirements .................... |vim-markdown-screenshot-requirements|
+    3. Usage .................................. |vim-markdown-screenshot-usage|
+    4. Licence .............................. |vim-markdown-screenshot-licence|
+===============================================================================
+1. Intro                                        *vim-markdown-screenshot-intro*
+
+Overview of plugin
+
+2. Requirements                          *vim-markdown-screenshot-requirements*
+
+What additional programs are required to run the plugin
+
+3. Usage                                        *vim-markdown-screenshot-usage*
+
+How to use the plugin. What functions does it give the user?
+
+4. Licence                                    *vim-markdown-screenshot-licence*
+
+This is open source make sure to include a licence
+
+vim:ft=help

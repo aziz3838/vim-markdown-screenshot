@@ -17,7 +17,7 @@ endif
 " --------------------------------
 "  Function(s)
 " --------------------------------
-function! MdScreenshot()
+function! Screenshot()
 python << endOfPython
 
 from vim_markdown_screenshot import take_screenshot
@@ -30,4 +30,4 @@ endfunction
 " --------------------------------
 "  Expose our commands to the user
 " --------------------------------
-command! MdScreenshot call MdScreenshot()
+command! Screenshot call Screenshot()

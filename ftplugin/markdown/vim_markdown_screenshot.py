@@ -1,6 +1,7 @@
 import subprocess
 import tempfile
 import vim
+import sys
 
 
 # Default Constants
@@ -48,7 +49,10 @@ def take_screenshot():
     img_path = tempfile.NamedTemporaryFile(prefix='', suffix='.png',
                                            dir=img_dir, delete=False).name
     # Take the screenshot
-    cmd = "gnome-screenshot -a -f " + img_path
+    if sys.platform == "darwin":
+        cmd = "screencapture -i " + img_path
+    else:
+        cmd = "gnome-screenshot -a -f " + img_path
     subprocess.call(cmd, shell=True)
     # Format the markdown tag
     image_filename = img_path.split('/')[-1]
